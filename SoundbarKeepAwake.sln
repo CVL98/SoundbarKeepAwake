@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundbarKeepAwake", "SoundbarKeepAwake.csproj", "{9154E2ED-8B45-5CA5-8985-FB4C8EC8332A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9154E2ED-8B45-5CA5-8985-FB4C8EC8332A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9154E2ED-8B45-5CA5-8985-FB4C8EC8332A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9154E2ED-8B45-5CA5-8985-FB4C8EC8332A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9154E2ED-8B45-5CA5-8985-FB4C8EC8332A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF18F343-D183-4163-B193-161A67B91D10}
+	EndGlobalSection
+EndGlobal
