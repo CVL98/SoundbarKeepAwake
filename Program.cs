@@ -11,7 +11,7 @@ class Program
 {
     // App settings
     private const string DeviceNameToFind = "Soundbar";
-    private const int BeepIntervalMinutes = 3;
+    private const int BeepIntervalMinutes = 10;
     private const int RetryIntervalSeconds = 60;
     private const string BeepSoundResource = "SoundbarKeepAwake.beep.wav";
     private const int WasapiBufferMs = 200;

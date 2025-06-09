@@ -21,7 +21,7 @@ dotnet add package NAudio
 dotnet build
 
 # Publish a release version
-dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:PublishTrimmed=true -o C:\Programs\SoundbarKeepAwake
+dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true -o C:\Programs\SoundbarKeepAwake
 ```
 
 ## Installation
@@ -35,7 +35,7 @@ C:\Programs\SoundbarKeepAwake\SoundbarKeepAwake.exe
 
 The app will:
 - Search for audio devices containing "Soundbar" in their name
-- Play a beep every 3 minutes to keep the device awake
+- Play a beep every so often to keep the device awake
 - Automatically reconnect if the device is disconnected
 - Can be stopped gracefully with Ctrl+C
 
