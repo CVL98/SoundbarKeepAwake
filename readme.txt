@@ -6,8 +6,12 @@ playing an inaudible beep. Particularly useful for Soundbars that automatically
 power down when inactive.
 
 ## Requirements
-- .NET 6.0 or higher
+- .NET 8.0 or higher
 - Windows operating system
+- dotnet-script or a beep.wav file
+
+# To create a beep.wav run 
+dotnet script WavGenerator.csx
 
 ## Build Instructions
 ```
@@ -21,7 +25,7 @@ dotnet add package NAudio
 dotnet build
 
 # Publish a release version
-dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true -o C:\Programs\SoundbarKeepAwake
+dotnet publish SoundbarKeepAwake.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o C:\Programs\SoundbarKeepAwake
 ```
 
 ## Installation
